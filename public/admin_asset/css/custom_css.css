@@ -1,0 +1,376 @@
+body {
+    margin: 0;
+}
+
+/* trang sản phẩm */
+.product-admin {
+    background-color: white;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.btn-addproduct {
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.show-product-admin {
+    margin-top: 20px;
+}
+
+/* trang nguyên liệu */
+/* thêm nguyên liệu */
+.sort-material {
+    display: flex;
+}
+
+.sort-material a {
+    background-color: green;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.title-material {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tieu-de-nguyen-lieu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-addmaterial {
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.material-show {
+    text-align: center;
+}
+
+.form-addmaterial {
+    margin-left: 20px;
+}
+
+.add-material-alig {
+    margin-top: 20px;
+}
+
+.form-editmaterial {
+    width: 200px;
+    margin-left: 20px;
+}
+
+/* sua nguyen lieu */
+.editmaterial {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+/* paginate index material */
+.paginate-materiall {
+    display: inline-block;
+}
+
+.image-show {
+    width: 200px;
+    height: 300px;
+}
+
+/* login css */
+.login-box {
+    margin-top: 75px;
+    height: auto;
+    background: #1a2226;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.login-key {
+    height: 100px;
+    font-size: 80px;
+    line-height: 100px;
+    background: -webkit-linear-gradient(#27ef9f, #0db8de);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.login-title {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ecf0f5;
+}
+
+.login-form {
+    margin-top: 25px;
+    text-align: left;
+}
+
+input[type="text"] {
+    background-color: #1a2226;
+    border: none;
+    border-bottom: 2px solid #0db8de;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: #ecf0f5;
+}
+
+input[type="password"] {
+    background-color: #1a2226;
+    border: none;
+    border-bottom: 2px solid #0db8de;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    color: #ecf0f5;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    outline: 0px;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #0db8de;
+    outline: 0;
+    background-color: unset;
+    color: unset;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+.form-control-label {
+    font-size: 10px;
+    color: #6c6c6c;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-outline-primary {
+    border-color: #0db8de;
+    color: #0db8de;
+    border-radius: 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.btn-outline-primary:hover {
+    background-color: #0db8de;
+    right: 0px;
+}
+
+.login-btm {
+    float: left;
+}
+
+.login-button {
+    padding-right: 0px;
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.login-text {
+    text-align: left;
+    padding-left: 0px;
+    color: #a2a4a4;
+}
+
+.loginbttm {
+    padding: 0px;
+}
+
+/*Tìm kiếm nguyên liệu*/
+.search-material input {
+    background-color: #fff;
+}
+
+/*loại sản phẩm*/
+
+.backindex a {
+    background-color: red;
+    font-size: 20px;
+    color: white;
+}
+
+/* lan 2 */
+/* css message error when validation form */
+.error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 1px 20px 1px 20px;
+}
+
+#notify-del-mal {
+    /* color: green; */
+    /* background-color: rgb(50, 200, 50, 0.5); */
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: auto;
+    right: 0;
+}
+
+.add-material {
+    display: flex;
+    justify-content: space-around;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,
+td {
+    background: #fff;
+    padding: 8px 16px;
+}
+.content-show {
+    text-align: center;
+    /* overflow: auto;
+    height: 1000px; */
+}
+/* .content-show thead th {
+    position: sticky;
+    top: 0;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+} */
+.form-edit-mal {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* dashboard*/
+.text-view-visitor {
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.title-visitor {
+    margin: 0%;
+    font-size: 24px;
+}
+
+#statis-view {
+    position: relative;
+}
+.sale-by-date:hover {
+    cursor: pointer;
+}
+
+#show-more-statis {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.sidebar-item a:hover,
+.active a {
+    color: yellow !important;
+}
+
+.infolog {
+    font-size: 18px;
+}
+
+.show-message-page {
+    position: relative;
+}
+
+.form-update-mmu {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fff;
+    color: black;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="password"] {
+    color: black;
+    background-color: #fff;
+    border-bottom: red solid;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: black solid 1px;
+}
+
+.dropdown-toggle-menu {
+    margin-right: 38px;
+}
+
+.infologin {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+#contenpro {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    height: 200px;
+    width: 280px;
+}
+#dropdownMenuButton {
+    width: auto;
+}
+#indexpro {
+    font-size: 18px;
+}
+#btnshowstatus {
+    background-color: green;
+    color: white;
+}
+#btnhidestatus {
+    background-color: red;
+    color: white;
+}
+.showind{
+    font-size: 16px;
+    font-weight: bold;
+}
+.editind{
+    font-size: 18px;
+    font-weight: bold; 
+}
